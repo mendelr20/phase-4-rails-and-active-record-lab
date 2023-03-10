@@ -5,3 +5,15 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Student.create(first_name: Faker::Name.first_name, last_name: Faker::Name.last_name, grade: 10 )  
+Student.create(first_name: Faker::Name.first_name, last_name: Faker::Name.last_name, grade: 3 )  
+Student.create(first_name: Faker::Name.first_name, last_name: Faker::Name.last_name, grade: 2 )  
+Student.create(first_name: Faker::Name.first_name, last_name: Faker::Name.last_name, grade: 11 )  
+Student.create(first_name: Faker::Name.first_name, last_name: Faker::Name.last_name, grade: 8 )  
+Student.create(first_name: Faker::Name.first_name, last_name: Faker::Name.last_name, grade: 11 )  
+Student.create(first_name: Faker::Name.first_name, last_name: Faker::Name.last_name, grade: 6 )  
+Student.create(first_name: Faker::Name.first_name, last_name: Faker::Name.last_name, grade: 3 )  
+Student.create(first_name: Faker::Name.first_name, last_name: Faker::Name.last_name, grade: 5 )  
+Student.create(first_name: Faker::Name.first_name, last_name: Faker::Name.last_name, grade: 7 )  
+Student.create(first_name: Faker::Name.first_name, last_name: Faker::Name.last_name, grade: 10 )  
